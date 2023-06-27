@@ -31,3 +31,34 @@ body {
     flex-direction: row;
 
 }
+.first-image { 
+    height: 40%;
+    width: 100%;
+}
+
+
+.image {
+    max-height: 100%;
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+}  
+.second-images {
+    height: 30%;
+    width: 100%;
+}
+.twoImages {
+    max-height: 100%;
+        max-width: 100%;
+        width: 49%;
+        height: 100%;
+}
+.twoImagess {
+    max-height: 100%;
+        max-width: 100%;
+        width: 50%;
+        height: 100%;
+}
+        
+    
+    

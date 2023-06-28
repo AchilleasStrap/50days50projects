@@ -44,21 +44,21 @@ body {
         height: 100%;
 }  
 .second-images {
-    height: 30%;
-    width: 100%;
+    display:flex;
+    width: 50vw;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+
 }
-.twoImages {
-    max-height: 100%;
-        max-width: 100%;
-        width: 49%;
-        height: 100%;
+.image-topleft {
+    background-size: 100% 100%;
+
+        background-position:left;
+        height: 10vh;
+    background-position: top left;
 }
-.twoImagess {
-    max-height: 100%;
-        max-width: 100%;
-        width: 50%;
-        height: 100%;
-}
-        
+ 
     
     

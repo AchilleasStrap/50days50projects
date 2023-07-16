@@ -73,7 +73,7 @@ body {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     
 
 
@@ -87,12 +87,14 @@ background-size: 100%;
    
 }
 .container4 {
-    width: 100%;
+    width: 50%;
         height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: row;
+        
+        
 
 }
 .shirt1 {
@@ -104,6 +106,8 @@ background-size: 100%;
     width: 50%;
         height: 100%;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSsFGEruw9vwNmuoKQFYzOIHWqONfMgIyiyQ&usqp=CAU");
+
+    
 }
 
 

@@ -45,7 +45,6 @@ body {
     
     }
     .container2 {
-        background-color: red;
         width: 100%;
         height: 100%;
         display: flex;
@@ -58,6 +57,7 @@ body {
         background-image: url("https://media.istockphoto.com/id/1209988354/photo/young-man-skateboarding-in-los-angeles.jpg?s=612x612&w=0&k=20&c=8s3Uwce5kW_WPn6xSdYv6Asbtm3eMEizBTneznuYbu4=");
             background-size:100%;
             text-align: center;
+            background-repeat: no-repeat;
     
     }
     .PANTS {
@@ -66,6 +66,7 @@ body {
             background-image: url("https://www.shutterstock.com/shutterstock/photos/2154927347/display_1500/stock-photo-portrait-of-happy-couple-having-fun-while-driving-a-long-board-in-city-people-skateboard-concept-2154927347.jpg");
             background-size: 100%;
             text-align: center;
+            background-repeat: no-repeat;
             
 }
 .container3 {
@@ -73,21 +74,23 @@ body {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
     
 
 
 }
 .T-SHIRTS {
-        width: 50%;
+        width: 55%;
         height: 100%;
         background-image: url("https://www.shutterstock.com/shutterstock/photos/490220290/display_1500/stock-photo-boy-skateboarding-jump-lifestyle-hipster-concept-490220290.jpg");
 background-position:center;
 background-size: 100%;
+text-align: center;
+background-repeat: no-repeat;
    
 }
 .container4 {
-    width: 50%;
+    width: 45%;
         height: 100%;
         display: flex;
         align-items: center;
@@ -101,13 +104,42 @@ background-size: 100%;
     width: 50%;
     height: 100%;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHNmxB3eZsY02EefxT_KFgNgCDOG2D7HcD_w&usqp=CAU");
+background-position: center;
+    background-size: 100%;
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+h1 {
+
+    display: flex;
+
+    justify-content: center;
+    position: absolute;
+
 }
 .shirt2 {
     width: 50%;
         height: 100%;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSsFGEruw9vwNmuoKQFYzOIHWqONfMgIyiyQ&usqp=CAU");
-
+background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     
+}
+.container5 {
+font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    display: contents;
+   color: aliceblue;
+
+}
+.container6 {
+    height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
 }
 
 

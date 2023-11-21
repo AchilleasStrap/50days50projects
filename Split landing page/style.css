@@ -5,6 +5,9 @@
     --right-bg-color: rgba(36, 35, 35, 0.7);
     --left-btn-hover-color: rgba(87,84,236,0.815);
     --right-btn-hover-color: rgba(80, 192, 29, 0.815);
+    --hover-width:75%;
+    --other-width:25%;
+    --speed:1000ms;
 }
 *{
     box-sizing: border-box;
@@ -93,4 +96,33 @@ h1 {
     background-color: var(--right-bg-color);
 
 
+}
+.split.right,
+ .split-left,
+ .split.right::before,
+ .split.left::before{
+    transition: all var(--speed) ease-in-out;
+}
+.hover-left .left {
+    width: var(--hover-width);
+}
+.hover-left .right {
+    width: var(--other-width);
+}
+.hover-right .right {
+    width: var(--hover-width);
+}
+
+.hover-right .left {
+    width: var(--other-width);
+}
+@media(max-width:800px) {
+    h1 {
+        font-size: 2rem;
+        top:10%;
+    }
+}
+.btn{
+    padding: 1.2rem;
+    width: 12rem;
 }

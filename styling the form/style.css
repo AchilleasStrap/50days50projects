@@ -64,12 +64,12 @@ body{
 .form-control input {
     background-color: transparent;
     border: 0;
-    border-bottom: 2px pink solid;
+    border-bottom: 3px green solid;
     display: block;
     width: 100%;
     padding: 15px 0;
     font-size: 18px;
-    color: plum;
+    color: purple;
 }
 .form-control input:focus,
 .form-control input:valid {

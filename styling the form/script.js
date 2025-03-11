@@ -7,4 +7,3 @@ labels.forEach(label => {
     .join('')
 
 })
-.innerHTML 

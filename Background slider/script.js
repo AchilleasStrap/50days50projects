@@ -20,7 +20,7 @@ leftBtn.addEventListener('click', () => {
   activeSlide--
 
   if (activeSlide < 0) {
-    activeSlide = slides.length - 1
+    activeSlide = slides.length - 3
   }  
 
   setBgToBody()

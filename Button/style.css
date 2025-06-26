@@ -18,12 +18,12 @@ button {
   background-color: purple;
   color: whitesmoke;
   border: 1px solid purple;
-  font-size: 14px;
+  font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  padding: 10px 30px;
+  padding: 20px 30px;
   overflow: hidden;
-  margin: 15px 0;
+  margin: 16px 0;
   position: relative;
 }
 
